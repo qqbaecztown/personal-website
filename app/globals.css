@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-sans);
+  --font-display: var(--font-display);
+  --color-paper: #f4f2ed;
+  --color-ink: #1d1c1a;
+  --color-stone: #76736a;
+  --color-line: #d8d3c9;
+  --color-accent: #7c6a54;
+}
+
+:root {
+  color-scheme: light;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: #fffaf0;
+}
