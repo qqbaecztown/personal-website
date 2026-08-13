@@ -3,42 +3,42 @@ import { Aperture, Mail } from "lucide-react"
 
 const work = [
   {
-    title: "North coast, morning",
-    category: "Landscape",
-    src: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=82",
-    alt: "Coastal cliffs under soft morning light",
+    title: "Soft portrait",
+    category: "Portrait",
+    src: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=1400&q=82",
+    alt: "Portrait of a woman in soft natural light",
     aspect: "aspect-[4/5]",
   },
   {
-    title: "Studio portrait",
-    category: "Portrait",
-    src: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1400&q=82",
-    alt: "Portrait of a man in soft window light",
+    title: "Open water",
+    category: "Landscape",
+    src: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=82",
+    alt: "Wide mountain landscape with a winding river",
     aspect: "aspect-[3/4]",
   },
   {
-    title: "After the rain",
-    category: "Documentary",
-    src: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=82",
-    alt: "Wide landscape with water and mountains after rain",
+    title: "Studio study",
+    category: "Editorial",
+    src: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1400&q=82",
+    alt: "Camera on a table in warm studio light",
     aspect: "aspect-[4/3]",
   },
   {
-    title: "Market at dusk",
-    category: "Editorial",
-    src: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1400&q=82",
-    alt: "Camera on a table with warm evening light",
+    title: "Mountain quiet",
+    category: "Landscape",
+    src: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1600&q=82",
+    alt: "Quiet mountain lake at dusk",
     aspect: "aspect-[3/4]",
   },
   {
-    title: "Slow river",
-    category: "Landscape",
-    src: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=82",
-    alt: "River winding through a quiet mountain valley",
+    title: "Morning portrait",
+    category: "Portrait",
+    src: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1400&q=82",
+    alt: "Portrait of a man in soft window light",
     aspect: "aspect-[4/5]",
   },
   {
-    title: "A quiet room",
+    title: "Still room",
     category: "Still life",
     src: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=1400&q=82",
     alt: "Simple room with natural light and clean lines",
@@ -85,7 +85,7 @@ export default function Page() {
             className="inline-flex items-center gap-2 text-xs font-semibold tracking-[0.2em] text-ink uppercase"
           >
             <Aperture className="h-4 w-4" strokeWidth={1.5} />
-            <span>Mara Ellison</span>
+            <span>Am0r3</span>
           </a>
 
           <nav className="hidden items-center gap-8 text-sm text-stone md:flex">
@@ -101,7 +101,7 @@ export default function Page() {
           </nav>
 
           <a
-            href="mailto:hello@maraellison.com"
+            href="mailto:baecztown@gmail.com"
             className="inline-flex items-center gap-2 text-sm font-medium text-ink md:hidden"
           >
             <Mail className="h-4 w-4" strokeWidth={1.5} />
@@ -124,7 +124,7 @@ export default function Page() {
               Photographer
             </p>
             <h1 className="max-w-3xl font-display text-6xl leading-[0.9] font-medium tracking-[-0.02em] sm:text-7xl lg:text-8xl">
-              Mara Ellison
+              Am0r3
             </h1>
             <p className="mt-7 max-w-xl text-lg leading-8 text-white/85">
               Portraits, landscapes, and quiet documentary work made with
@@ -138,11 +138,11 @@ export default function Page() {
                 View work
               </a>
               <a
-                href="mailto:hello@maraellison.com"
+                href="mailto:baecztown@gmail.com"
                 className="inline-flex items-center gap-2 text-sm font-medium text-white/90 underline decoration-white/40 underline-offset-8 hover:decoration-white"
               >
                 <Mail className="h-4 w-4" strokeWidth={1.5} />
-                hello@maraellison.com
+                baecztown@gmail.com
               </a>
             </div>
           </div>
@@ -301,11 +301,11 @@ export default function Page() {
               the quickest way to reach me.
             </p>
             <a
-              href="mailto:hello@maraellison.com"
+              href="mailto:baecztown@gmail.com"
               className="mt-9 inline-flex items-center gap-3 border-b border-ink pb-1 text-xl font-medium text-ink transition-colors hover:text-stone"
             >
               <Mail className="h-5 w-5" strokeWidth={1.5} />
-              hello@maraellison.com
+              baecztown@gmail.com
             </a>
           </div>
         </section>
@@ -313,8 +313,8 @@ export default function Page() {
 
       <footer className="border-t border-line py-8">
         <div className="mx-auto flex max-w-6xl flex-col justify-between gap-3 px-6 text-sm text-stone sm:flex-row">
-          <p>Mara Ellison Photography</p>
-          <p>All photographs are placeholders for now.</p>
+          <p>Am0r3 Photography</p>
+          <p>Photographs sourced from Unsplash and marked for replacement.</p>
         </div>
       </footer>
     </div>

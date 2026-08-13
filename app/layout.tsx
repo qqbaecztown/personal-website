@@ -16,9 +16,9 @@ const fontDisplay = Cormorant_Garamond({
 })
 
 export const metadata: Metadata = {
-  title: "Mara Ellison | Photographer",
+  title: "Am0r3 | Photographer",
   description:
-    "Portraits, landscapes, and quiet documentary work made with patience and natural light.",
+    "Portraits, landscapes, and quiet documentary photography by Am0r3.",
 }
 
 export default function RootLayout({
