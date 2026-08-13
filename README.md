@@ -1,21 +1,20 @@
-# Next.js template
+# Photographer Portfolio
 
-This is a Next.js template with shadcn/ui.
+A single-page photography portfolio built on the shadcn Next.js template.
 
-## Adding components
-
-To add components to your app, run the following command:
+## Run locally
 
 ```bash
-npx shadcn@latest add button
+pnpm install
+pnpm dev
 ```
 
-This will place the ui components in the `components` directory.
+## Image replacements
 
-## Using components
+The current site uses Unsplash placeholders. Replace these locations with your own work:
 
-To use the components in your app, import them as follows:
+- Hero background in `app/page.tsx`
+- The six `work` items in `app/page.tsx`, including title, category, and `src`
+- Any brand, email, and contact details throughout `app/page.tsx`
 
-```tsx
-import { Button } from "@/components/ui/button";
-```
+Recommended image sizes are 1600px on the long edge for work tiles and 2400px for the hero.
